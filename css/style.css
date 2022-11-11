@@ -1,0 +1,13 @@
+﻿body{
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 400;
+   background-color: #FAF6EE;
+}
+
+.container{
+   margin: 0 auto;
+   padding: 0 30px;
+   max-width:  1376px;
+}
+

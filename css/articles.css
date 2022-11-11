@@ -1,0 +1,105 @@
+﻿
+.articles {
+   padding: 160px 0;
+   text-align: center;
+}
+.articles__title {
+   font-size: 128px;
+   line-height: 128px;
+   text-transform: uppercase;
+   color: #111010;
+}
+.articles__cards {
+   display: flex;
+   justify-content: space-between;
+}
+.articles__card {
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 30px;
+   position: relative;
+   display: block;
+   border: 1px solid #111010;
+   border-radius: 20px;
+   width: 430px;
+   height: 350px;
+}
+.articles__card-title {
+   position: absolute;
+   bottom: 0;
+   padding: 15px 0;
+   font-size: 20px;
+   line-height: 22px;
+   text-transform: uppercase;
+   color: #111010;
+   width: 100%;
+   background: #CAB5EB;
+   border-radius: 0px 0px 20px 20px;
+}
+#articles__card1{ background: url(../img/articles_1.png) 60%, no-repeat;}
+#articles__card2{ background: url(../img/articles_2.png) 92%, no-repeat;}
+#articles__card3{ background: url(../img/articles_3.png) 30%, no-repeat;}
+
+.articles__card-title:hover{
+   transition: all .3s ease;
+   padding-top: 311px;
+   opacity: 0.85;
+   border-radius:20px;
+}
+@media (max-width: 1200px){
+   .articles__title {
+      font-size: 90px;
+      line-height: 90px;
+   }
+   .articles__card-title {
+      padding: 15px 0;
+      font-size: 18px;
+      line-height: 18px;
+      border-radius: 0px 0px 20px 20px;
+   }
+   .articles__card-title:hover{
+      padding-top: 315px;
+   }
+}
+@media (max-width: 930px){
+   .articles__title {
+      font-size: 75px;
+      line-height: 90px;
+   }
+   .articles__card {
+      margin-top: 25px;
+      width: 400px;
+      height: 300px;
+   }
+   .articles__card-title {
+      padding: 13px 0;
+      font-size: 16px;
+      line-height: 18px;
+      border-radius: 0px 0px 20px 20px;
+   }
+   .articles__card-title:hover{
+      transition: all .3s ease;
+      padding-top: 266px;
+   }
+}
+@media (max-width: 770px){
+   
+.articles {
+   padding: 60px 0;
+}
+   .articles__cards {
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+   .articles__title {
+      font-size: 60px;
+      line-height: 80px;
+   }  
+}
+
+@media (max-width: 550px){
+   .articles__title {
+      font-size: 45px;
+      line-height: 60px;
+   }  
+}

@@ -1,0 +1,230 @@
+﻿
+.footer {
+   padding: 60px 0;
+   background: #CAB5EB;
+}
+.footer__logo {
+   max-width: 100%;
+   width: 100%;
+}
+.footer-img{
+   max-width: 100%;
+   width: 100%;
+}
+.footer__info {
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-between;
+}
+.footer__sell {
+   max-width: 370px;
+   position: relative;
+}
+.footer__sell-title {
+   font-size: 27px;
+   line-height: 30px;
+   text-transform: uppercase;
+   color: #111010;
+}
+.send2 {
+   position: absolute;
+   right: 0px;
+   top: 86px;
+}
+.footer__list:nth-child(2){
+   margin-left: 15%;
+}
+.footer__list:nth-child(3){
+   margin-left: 10%;
+}
+.footer__list:nth-child(4){
+   margin-left: 30px;
+}
+.footer__item {
+   margin-bottom: 14px;
+}
+.footer__link {
+   white-space: nowrap;
+   margin-bottom: 0px;
+   font-size: 16px;
+   line-height: 24px;
+   text-transform: uppercase;
+   color: #111010;
+}
+.footer__link:hover{
+   transition: all .3s ease;
+   color:#000000;
+   text-decoration: underline;
+}
+.footer__under {
+   margin-top: 70px;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+.under-from__item {
+   margin-right: 5px;
+   font-size: 16px;
+   line-height: 24px;
+   text-decoration-line: underline;
+   color: #111010;
+}
+
+.footer__under-link {
+   margin-left: 30px;
+}
+@media (max-width: 1150px){
+   .send2 {
+      position: absolute;
+      right: 40px;
+      top: 82px;
+   }
+}
+@media (max-width: 1000px){
+   .footer__sell {
+      max-width: 380px;
+   }
+   .footer__sell-title {
+      font-size: 23px;
+      line-height: 25px;
+   }
+   .send2 {
+      position: absolute;
+      right: -10px;
+      top: 72px;
+   }
+}
+@media (max-width: 930px){
+   .footer__sell {
+      max-width: 380px;
+   }
+   .footer__sell-title {
+      font-size: 23px;
+      line-height: 25px;
+   }
+   .send2 {
+      position: absolute;
+      right: 105px;
+      top: 68px;
+   }
+   .footer__list:nth-child(2){
+      margin-left: 5%;
+   }
+   .footer__list:nth-child(3){
+      margin-left: 5%;
+   }
+   .footer__list:nth-child(4){
+      margin-left: 15px;
+   }
+   .footer__link {
+      font-size: 14px;
+      line-height: 20px;
+   }
+}
+@media (max-width: 900px){
+   .footer {
+      margin-top: 500px;
+   }
+}
+@media (max-width: 800px){
+   .under-from__item {
+      margin-right: 5px;
+      font-size: 14px;
+      line-height: 18px;
+   }
+   .footer__under-link {
+      margin-left: 15px;
+   }
+   .footer__info{
+      justify-content: flex-start;
+      flex-wrap: wrap;
+   }
+   .footer__sell {
+      margin-bottom: 50px;
+   }
+}
+@media (max-width: 700px){
+   .under-from__item {
+      margin-right: 5px;
+      font-size: 14px;
+      line-height: 18px;
+   }
+   .footer__under-link {
+      margin-left: 15px;
+   }
+   .footer__info{
+      justify-content: flex-start;
+      flex-wrap: wrap;
+   }
+   .send2 {
+      right: 20px;
+      top: 72px;
+   }
+   .footer__sell {
+      margin-bottom: 50px;
+   }
+   .footer__list:nth-child(2){
+      margin-left: 5%;
+   }
+   .footer__list:nth-child(3){
+      margin-left: 5%;
+   }
+   .footer__list:nth-child(4){
+      margin-left: 5%;
+   }
+}
+@media (max-width: 600px){
+   .footer{
+      margin-top: 580px;
+   }
+}
+@media (max-width: 500px){
+   .under-from__item{
+      margin-bottom: 10px;
+   }
+   .footer__under-link {
+      margin-left: 15px;
+   }
+   .footer__info{
+      justify-content: flex-start;
+      flex-wrap: wrap;
+   }
+   .send2 {
+      right: 50px;
+      top: 66px;
+   }
+   .footer__sell {
+      margin-bottom: 50px;
+   }
+   .footer__list:nth-child(2){
+      margin-left: 5%;
+   }
+   .footer__list:nth-child(3){
+      margin-left: 5%;
+   }
+   .footer__list:nth-child(4){
+      margin-left: 5%;
+   }
+}
+@media (max-width: 500px){
+   .footer__info{
+      display: block;
+   }
+   .send2 {
+      right: 100px;
+      top: 66px;
+   }
+   .footer__list{
+      margin-bottom: 30px;
+   }
+   .footer__item {
+      margin-bottom: 8px;
+   }
+}
+@media (max-width: 380px){
+   .send2 {
+      right: 80px;
+      top: 66px;
+   }
+}

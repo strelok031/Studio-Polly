@@ -1,0 +1,252 @@
+﻿
+
+.bestsellers {
+   background: #F1EBE4;
+   padding: 80px 0 80px 0;
+   border-top: 1px solid #111010;
+   border-bottom: 1px solid #111010;
+   margin-top: 160px;
+}
+.bestsellers__cards {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+}
+
+.bestsellers__title {
+   font-size: 48px;
+   line-height: 53px;
+   text-transform: uppercase;
+   color: #111010;
+  margin-bottom: 30px;
+}
+.bestsellers__text-img {
+   margin-left: 45px;
+}
+.bestsellers__link{
+   display: block;
+   border: 1px solid rgba(0, 0, 0, 0);
+}
+.bestsellers__link:hover{
+   transition: all .3s ease;
+   border: 1px solid #000;
+}
+.bestsellers__card {
+   position: relative;
+   text-align: center;
+   width: 326px;
+   height: 550px;
+}
+#bestsellers__card1{
+   background:url(../img/bestsellers1.png) no-repeat;
+   background-size: 100%;
+}
+#bestsellers__card2{
+   background:url(../img/bestsellers2.png) no-repeat;
+   background-size: 100%;
+}
+#bestsellers__card3{
+   background:url(../img/bestsellers3.png) no-repeat;
+   background-size: 100%;
+}
+.bestsellres__card-sale {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.bestsellers__card-name {
+   margin-top: 450px;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   color: #111010;
+}
+.bestsellers__card-lastprice {
+   font-size: 16px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+   text-transform: uppercase;
+   color: rgba(17, 16, 16, 0.7);
+}
+.bestsellers__card-price {
+   font-size: 16px;
+   line-height: 24px;
+   text-transform: uppercase;
+   color: #111010;
+}
+.bestsellers__allproduct-btn {
+   position: absolute;
+   right: 0px;
+   bottom: -60px;
+   font-size: 20px;
+   line-height: 30px;
+   text-decoration-line: underline;
+   text-transform: uppercase;
+   color: #111010;
+}
+.bestsellers__title-phone{
+   display: none;
+}
+.huita{
+   margin-top: -80px;
+   width: 100%;
+   height: 500px;
+   background-color: #fff;
+   background: url(../img/huita.png) no-repeat;
+}
+@media (max-width: 1350px){
+   .bestsellers__title {
+      font-size: 35px;
+      line-height: 40px;
+     margin-bottom: 30px;
+   }
+   .bestsellers__card {
+      width: 300px;
+      height: 500px;
+   }
+   .bestsellers__card-name {
+      margin-top: 420px;
+      font-size: 18px;
+      line-height: 25px;
+   }
+   .bestsellres__card-sale {
+      width: 80px;
+   }
+   .bestsellers__allproduct-btn {
+      bottom: -45px;
+      font-size: 20px;
+      line-height: 30px;
+   }
+}
+@media (max-width: 1200px){
+   .bestsellers__title {
+      font-size: 28px;
+      line-height: 36px;
+      margin-bottom: 25px;
+   }
+   .bestsellers__text-img {
+      margin-left: 25px;
+   }
+   .bestsellers__card {
+      width: 265px;
+      height: 450px;
+   }
+   .bestsellers__card-name {
+      margin-top: 370px;
+      font-size: 18px;
+      line-height: 25px;
+   }
+   .bestsellres__card-sale {
+      width: 80px;
+   }
+   .bestsellers__allproduct-btn {
+      bottom: -35px;
+      font-size: 20px;
+      line-height: 30px;
+   }
+}
+@media (max-width: 1050px){
+   .bestsellers__title-phone{
+      display: block;
+      font-size: 45px;
+      line-height: 70px;
+      margin-bottom: 25px;
+   }
+   .bestsellers__text {
+      display: none;
+   }
+   .bestsellers__card {
+      width: 277px;
+      height: 465px;
+   }
+   .bestsellers__card-name {
+      margin-top: 380px;
+      font-size: 18px;
+      line-height: 25px;
+   }
+   .bestsellres__card-sale {
+      width: 80px;
+   }
+   .bestsellers__allproduct-btn {
+      bottom: -45px;
+      font-size: 20px;
+      line-height: 30px;
+   }
+}
+@media (max-width: 900px){
+   .huita{
+      display: none;
+   }
+   .bestsellers__title-phone{
+      font-size: 38px;
+      line-height: 50px;
+      margin-bottom: 10px;
+   }
+   .bestsellers__cards{
+      flex-wrap: wrap;
+   }
+   .bestsellers__card {
+      margin-top: 20px;
+      width: 315px;
+      height: 520px;
+   }
+   .bestsellers__card-name {
+      margin-top: 430px;
+      font-size: 18px;
+      line-height: 25px;
+   }
+   .bestsellres__card-sale {
+      width: 80px;
+   }
+   .bestsellers__allproduct-btn {
+      bottom: -45px;
+      font-size: 20px;
+      line-height: 30px;
+   }
+}
+@media (max-width: 700px){
+   .bestsellers__title {
+      font-size: 35px;
+      line-height: 40px;
+     margin-bottom: 10px;
+   }
+   .bestsellers__card {
+      width: 280px;
+      height: 500px;
+   }
+   .bestsellers__card-name {
+      margin-top: 420px;
+      font-size: 18px;
+      line-height: 25px;
+   }
+   .bestsellres__card-sale {
+      width: 80px;
+   }
+   .bestsellers__allproduct-btn {
+      bottom: -45px;
+      font-size: 20px;
+      line-height: 30px;
+   }
+}
+@media (max-width: 600px){
+   .bestsellers__cards{
+      justify-content: center;
+   }
+   .bestsellers__card {
+      width: 320px;
+      height: 520px;
+   }
+   .bestsellers__card-name {
+      margin-top: 430px;
+      font-size: 18px;
+      line-height: 25px;
+   }
+   .bestsellres__card-sale {
+      width: 80px;
+   }
+   .bestsellers__allproduct-btn {
+      bottom: -45px;
+      font-size: 20px;
+      line-height: 30px;
+   }
+}

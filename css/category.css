@@ -1,0 +1,131 @@
+﻿
+.category {
+   margin-top: 130px;
+}
+
+.category__title {
+   font-size: 48px;
+   line-height: 53px;
+   text-transform: uppercase;
+   color: #111010;
+}
+.category__cards {
+   display: flex;
+   justify-content: space-between;
+}
+.category__card {
+   margin: 60px 10px 27px 10px ;
+   text-align: center;
+   max-width: 430px;
+   overflow: hidden;
+}
+.category__card-img {
+   max-width: 100%;
+}
+.category__card-img:hover {
+   transition: .3s;
+   transform: scale(1.03);
+}
+.category__card-name {
+   padding-top: 47px;
+   height: 140px;
+   width: 100%;
+   font-size: 32px;
+   line-height: 48px;
+   text-transform: uppercase;
+   color: #111010;
+   background: #CAB5EB;
+   
+}
+.category__card-name:hover{
+   transition: all .3s ease;
+   background: #dac3ff;
+   transform: scaleY(1.05);
+}
+
+@media (max-width: 1200px){
+   .category {
+      margin-top: 110px;
+   }
+   
+   .category__title {
+      font-size: 38px;
+      line-height: 43px;
+   }
+   .category__card {
+      margin: 40px 10px 27px 10px ;
+      max-width: 430px;
+   }
+   .category__card-name{
+      font-size: 28px;
+      line-height: 40px;
+      padding-top: 26px;
+      height: 100px;
+   } 
+}
+@media (max-width: 900px){
+   .category {
+      margin-top: 110px;
+   }
+   
+   .category__title {
+      font-size: 38px;
+      line-height: 43px;
+   }
+   .category__cards{
+      flex-wrap: wrap;
+   }
+   .category__card {
+      margin: 30px 5px 10px 5px ;
+      max-width: 300px;
+   }
+   .category__card-name{
+      font-size: 28px;
+      line-height: 40px;
+      padding-top: 26px;
+      height: 100px;
+   } 
+}
+@media (max-width:700px){
+   .category {
+      margin-top: 110px;
+   }
+   
+   .category__title {
+      font-size: 33px;
+      line-height: 38px;
+   }
+   .category__card {
+      margin: 30px 5px 10px 5px ;
+      max-width: 279px;
+   }
+   .category__card-name{
+      font-size: 24px;
+      line-height: 35px;
+      padding-top: 17px;
+      height: 70px;
+   } 
+}
+@media (max-width:600px){
+   .category {
+      margin-top: 110px;
+   }
+   .category__title {
+      font-size: 33px;
+      line-height: 38px;
+   }
+   
+   .category__cards {
+      justify-content: center;
+   }
+   .category__card {
+      margin: 40px 10px 27px 10px ;
+      max-width: 430px;
+   }
+   .category__card-name{
+      padding-top: 47px;
+      height: 140px;
+      font-size: 32px;
+      line-height: 48px;
+   } 
+}

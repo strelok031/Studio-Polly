@@ -1,0 +1,111 @@
+
+.burger {
+    display: none;
+}
+.none{
+   display: none;
+}
+.burger__card{
+   display: none;
+}
+.body{
+   margin: 0;
+}
+
+@media (max-width:650px) {
+    body.lock {
+        overflow: hidden;
+    }
+    .nav__bar {
+        height: 60px;
+    }
+    .burger__card{
+      display: flex;
+      align-items:center;
+      position: absolute;
+      top: 17px;
+      right: 55px;
+    }
+    .nav__menu{
+      display: none;
+    }
+    .nav__card{
+      display: none;
+    }
+    .burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+    .burger span {
+        position: absolute;
+        left: 0;
+        background-color: #000;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all .3s ease;
+    }
+    .burger::before,
+    .burger::after {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all .3s ease;
+    }
+    .burger::before {
+        top: 0;
+    }
+    .burger::after {
+        bottom: 0;
+    }
+    .burger.active::before{
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .burger.active::after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .burger.active span{
+        transform: scale(0);
+    }
+    .burger__menu {
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #cecece;
+        transition: all .3s ease;
+        overflow: auto;
+    }
+    .burger__menu.active {
+        left: 0;
+    }
+    .burger__menu {
+        display: block;
+    }
+    .burger__menu li{
+      margin-left: 10px;
+      list-style: none;
+      margin-top: 30px;
+    }
+    .burger__menu a{
+      text-decoration: none;
+      font-size: 24px;
+      color:#000;
+      text-transform: uppercase;
+    }
+}
+@media (max-width: 400px){
+   .burger__card{
+      margin-right: -10px;
+   }
+}
+
